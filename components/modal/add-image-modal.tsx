@@ -35,7 +35,7 @@ import { toast } from "../ui/use-toast"
 
 export const modalSchema = z.object({
   
-    image: z.string()
+    image: z.string().min(1,{message:"required"})
     
   
       
