@@ -20,9 +20,9 @@ export function  TabsComponent() {
   return (
     <Tabs defaultValue="aboutme" className="w-full h-56">
       <TabsList className="grid text-sm w-full px-2 grid-cols-3 gap-2 bg-zinc-800">
-        <TabsTrigger value="aboutme" className="text-sm">About me</TabsTrigger>
-        <TabsTrigger value="experiences" className="text-sm">Experiences</TabsTrigger>
-        <TabsTrigger value="recommonded" className="text-sm">Recommonded </TabsTrigger>
+        <TabsTrigger value="aboutme" className="text-sm ">About me</TabsTrigger>
+        <TabsTrigger value="experiences" className="text-sm ">Experiences</TabsTrigger>
+        <TabsTrigger value="recommonded" className="text-sm ">Recommonded </TabsTrigger>
       </TabsList>
       <TabsContent value="aboutme">
       <div className="  text-[#969696] font-sans h-full w-full   "> 

@@ -21,13 +21,14 @@ const Gallery = () => {
       <div className="flex items-center gap-5 justify-between">
         <Button className='rounded-lg'>Gallery</Button>
         <div className='flex items-center gap-5'>
-          <Button className='flex items-center gap-2 rounded-lg'
+          <Button className='flex items-center gap-2 rounded-lg neuro'
             onClick={() => { onOpen('AddImage') }}>
             <IoAdd size={20} /> Add Image
           </Button>
+     
           <div className='flex items-center gap-2'>
-            <div className=' rounded-full bg-black p-2 cursor-pointer'  ><GoArrowLeft /></div>
-            <div className=' rounded-full bg-black p-2 cursor-pointer'><GoArrowRight /></div>
+            <div className=' rounded-full bg-black p-2 cursor-pointer neuro'  ><GoArrowLeft /></div>
+            <div className=' rounded-full bg-black p-2 cursor-pointer neuro'><GoArrowRight /></div>
           </div>
         </div>
       </div>
