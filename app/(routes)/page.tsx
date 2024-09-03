@@ -17,8 +17,8 @@ export default function Home() {
         <ol className="list-decimal list-inside">
           <li>Keep the left half of the screen empty (but it should be responsive for laptops, not mobile).</li>
           <li>Focus on the two widgets on the right-hand side.</li>
-          <li>The first widget has three tabs: "about me", "experiences" & "recommended", which should be clickable.</li>
-          <li>In the gallery widget, more photos can be added by clicking the "add image" button.</li>
+          <li>The first widget has three tabs: about me, experiences & recommended, which should be clickable.</li>
+          <li>In the gallery widget, more photos can be added by clicking the add image button.</li>
         </ol>
 
         <h4>Assignment will be scored based on the below parameters:</h4>
