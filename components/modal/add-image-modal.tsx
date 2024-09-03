@@ -64,6 +64,8 @@ const AddImageModal = ()=>{
         toast({
             title:"Images added to gallery"
         })
+
+        onClose();
     }
    } catch (error) {
      console.log(error);  
