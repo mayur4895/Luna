@@ -28,7 +28,7 @@ const FileUpload = ({
     if (value) {
   if (fileType !== "pdf") {
             return (
-                <div className="h-25 w-25 relative bg-white">
+                <div className="h-25 w-25 relative  ">
                     <Image
                         width={150}
                         height={150}
