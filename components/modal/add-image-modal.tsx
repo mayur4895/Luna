@@ -78,9 +78,9 @@ const AddImageModal = ()=>{
     <Dialog open={isModalOpen} onOpenChange={handleChnage}  >
   <DialogContent className=" outline-none  border-none  text-white  ">
     <DialogHeader>
-      <DialogTitle className="text-2xl">Create your own Server</DialogTitle>
+      <DialogTitle className="text-2xl">Upload image in gallery</DialogTitle>
       <DialogDescription>
-        You can change the server image and name of server.
+        You can add the  image in gallery
       </DialogDescription>
     </DialogHeader>
     <Form {...form}>
